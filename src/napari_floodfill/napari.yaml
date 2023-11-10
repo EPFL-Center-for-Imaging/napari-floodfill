@@ -1,0 +1,10 @@
+name: napari-floodfill
+display_name: Flood fill
+contributions:
+  commands:
+    - id: napari-floodfill.fill
+      title: Flood fill
+      python_name: napari_floodfill:FloodFillWidget
+  widgets:
+    - command: napari-floodfill.fill
+      display_name: Flood fill
