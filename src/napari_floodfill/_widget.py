@@ -55,7 +55,7 @@ class FloodFillWidget(QWidget):
 
         # Flood fill parameters (group)
         ff_group = QGroupBox()
-        ff_group.setTitle("Flood-fill parameters")
+        ff_group.setTitle("Flood fill parameters")
         ff_layout = QGridLayout()
         ff_group.setLayout(ff_layout)
         ff_group.layout().setContentsMargins(10, 10, 10, 10)
@@ -72,13 +72,13 @@ class FloodFillWidget(QWidget):
         ff_layout.addWidget(QLabel("Intensity range", self), 0, 0)
         ff_layout.addWidget(self.thresholdSlider, 0, 1)
 
-        # Flood-fill tolerance
+        # Flood fill tolerance
         self.ff_tolerance = QDoubleSpinBox()
         self.ff_tolerance.setMinimum(0.0)
         self.ff_tolerance.setMaximum(1.0)
         self.ff_tolerance.setSingleStep(0.05)
         self.ff_tolerance.setValue(0.2)
-        ff_layout.addWidget(QLabel("Flood-fill tolerance", self), 1, 0)
+        ff_layout.addWidget(QLabel("Flood fill tolerance", self), 1, 0)
         ff_layout.addWidget(self.ff_tolerance, 1, 1)
 
         # Push button

@@ -15,10 +15,15 @@ You can install `napari-floodfill` via [pip]:
 ## Usage
 
 - Select the plugin from the `Plugins` menu of Napari.
-- Open an image to annotate (2D, 2D+t, or 3D).
-- Click on the button "Start live wire" or press `S`. A new `Labels` layer *Live wire (current edit)* should appear.
-- With the *Live wire* layer selected, click on the image to annotate the contour of an object.
-- Double-click to close the annotation path and fill the inside of the annotated object.
+- Open an image to annotate (2D, RGB, 2D+t, or 3D).
+- Click on the button "Start flood fill" or press `S`. A new `Labels` layer *Flood fill (current edit)* should appear.
+- With the *Flood fill* layer selected, move your cursor arounda nd click on the image to annotate objects.
+- Double-click to confirm the annotation of an object and move to the next.
+
+**Options and parameters**
+- *Auto-increment label index*: Tick this option to increment the label index every time a new object is annotated (e.g. if you are annotating multiple objects).
+- *Intensity range*: Pixels outside of this range will not trigger the flood fill computation. The extremities of the range represent the absolute minimum and maximum of the image. Set the range somewhere to the left if you are annotating dark objects on a bright background, or to the right if you are annotating bright objects.
+- *Flood fill tolerance*: Controls the extent of the flood fill. A higher value will fill more pixels. The value selected is relative to the image intensity range.
 
 ## Contributing
 
