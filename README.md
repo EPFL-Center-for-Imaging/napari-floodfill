@@ -4,7 +4,7 @@
 Interactive object annotation in Napari using a *flood fill* tool. This tool is based on the [`flood`](https://scikit-image.org/docs/stable/api/skimage.segmentation.html#skimage.segmentation.flood) function of Scikit-image.
 
 <p align="center">
-    <img src="https://github.com/MalloryWittwer/napari-floodfill/blob/main/assets/screenshot.gif" height="400">
+    <img src="https://github.com/EPFL-Center-for-Imaging/napari-floodfill/blob/main/assets/screenshot.gif" height="400">
 </p>
 
 ## Installation
