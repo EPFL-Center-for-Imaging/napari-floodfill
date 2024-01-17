@@ -41,7 +41,7 @@ If you encounter any problems, please file an issue along with a detailed descri
 
 ----------------------------------
 
-This [napari] plugin is an output of a collaborative project between the [EPFL Center for Imaging](https://imaging.epfl.ch/) and the [Thermomechanical Metallurgy Laboratory](https://www.epfl.ch/labs/lmtm/) in 2023.
+This [napari] plugin is an output of a collaborative project between the [EPFL Center for Imaging](https://imaging.epfl.ch/) and the [Galatea Lab](https://www.epfl.ch/labs/galatea/) in 2023.
 
 [napari]: https://github.com/napari/napari
 [BSD-3]: http://opensource.org/licenses/BSD-3-Clause
